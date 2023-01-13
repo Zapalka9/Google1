@@ -18,3 +18,9 @@ function onLoad(){
       .addToUi();
 }
 ```
+
+[Was ist ein Maestromuster?](Maestro.md)
+
+[Was ist ein Wernermuster?](Werner.md)
+
+<img src="Google_Apps_Script.svg.png" width="40">
