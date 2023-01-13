@@ -40,13 +40,13 @@ Mein erstes Listing mit Zeilennummern:
 10: }
 ```
 
-Und hier kommt ein zweites Beispiel:
+Und hier kommt ein zweites Beispiel: kleine Änderung !!!
 
-```js
+```cpp
 001: // =====================================================================================
 002: // Program.cpp
 003: // =====================================================================================
-004: 
+004: // hier haben wir cpp-Code kleine Änder
 005: #include <iostream>
 006: #include <string>
 007: #include <vector>
