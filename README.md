@@ -4,6 +4,13 @@ Wär des ohne den Maestro möglich?
 
 ## Unser erstes GAS-Script
 
+Wir behandeln hier 3 Themen:
+
+  * Thema 1:
+  * Thema 2:
+  * Thema 3:
+
+
 Unser erstes Beispiel:
 
 ```js
@@ -36,9 +43,26 @@ Mein erstes Listing mit Zeilennummern:
 06:       .addItem('Datei sichern', 'triggerDateiSichern')
 07:       .addItem('Monat löschen', 'triggerMonatLöschen')
 08:       .addItem('Jahr löschen', 'triggerJahrLöschen')
-09:       .addToUi();
+09:       .addToUi();                                       
 10: }
 ```
+
+Ein zweites Beispiel zu Code
+
+<pre>
+01: function onLoad(){
+02:   let ui = SpreadsheetApp.getUi();
+03:   // Or DocumentApp or FormApp.
+04:   <b>ui.createMenu('Haushalt')</b>
+05:       .addItem('Monat kopieren', 'triggerMonatKopieren')
+06:       .addItem('Datei sichern', 'triggerDateiSichern')
+07:       .addItem('Monat löschen', 'triggerMonatLöschen')
+08:       .addItem('Jahr löschen', 'triggerJahrLöschen')
+09:       .addToUi();                                       
+10: }
+</pre>
+
+
 
 Und hier kommt ein zweites Beispiel: kleine Änderung !!!
 
